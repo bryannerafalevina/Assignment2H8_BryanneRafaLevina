@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e9ecef;
+}
+.navbar{
+    background-color: #219ebc;
+}
+
+.container {
+    padding: 10px;
+}
+
+.btn-info {
+    display: inline;
+}
+
+#btn-kontak {
+    color: #FFFFFF;
+    background-color: #3a5a40;
+}
+
+#btn-kontak:hover {
+    background-color: #588157;
+}
+
+#btn-resume {
+    background-color: #dedbd2;
+}
+
+#btn-resume:hover {
+    background-color: #b0c4b1;
+}
+
+#btn-submit {
+    width: 100%;
+    color: white;
+    background-color: #386641;
+}
+
+#btn-submit:hover {
+    background-color: #6a994e;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+  }
+
+  .btn-submit {
+    width: 100%;
+  }
